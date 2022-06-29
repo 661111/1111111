@@ -1,4 +1,4 @@
-/*---HALO-+-基础设置-+-ON*/
+/*---HALO-+-鍩虹璁剧疆-+-ON*/
 *{
     padding: 0;
     margin: 0;
@@ -65,7 +65,7 @@ ul li{
     box-shadow: 0 10px 20px 0 rgba(230, 230, 230, .86) !important;
     background-color: #FFFFFF;
     border-radius: 30px;
-    margin: 80px auto 30px;
+    margin: 80px auto 80px;
     padding: 30px 2%;
 }
 .main-box{
@@ -74,10 +74,14 @@ ul li{
 .css-1lwou0a{
     padding: 0px !important;
 }
+.css-pb5a2h{
+    bottom: 50% !important;
+    transform: translateY(50%) !important;
+}
 
 
 
-/*---HALO-+-头部设置-+-ON*/
+/*---HALO-+-澶撮儴璁剧疆-+-ON*/
 .css-1mn9rdg{
     height: 30px !important;
 }
@@ -140,23 +144,44 @@ ul li{
     display: inline-block;
     width: auto !important;
     height: auto !important;
-}
-.header .buttons>span{
-    display: inline-block;
-    background-color: #FFFFFF;
-    border-radius: 8px 0px 0px 8px;
     width: 100%;
-    padding: 5px 3px !important;
-    margin: 5px 0px !important;
-    text-align: center;
-    box-shadow: 0 5px 5px 0 rgba(230, 230, 230, .50) !important;
+    height: 30px;
+    background-color: #FFF;
+    box-shadow: 0 5px 5px 0 rgba(230, 230, 230, .70) !important;
+    border-radius: 6px 0px 0px 6px;
 }
-.header .buttons>span>svg{
-    width: 15px;
-    color: #888888;
+.header .buttons .css-g9cw6v{
+    display: inline;
+    width: 100%;
+    height: 100%;
+    float: right !important;
+    padding: 3px 0px;
+}
+.header .buttons .chakra-offset-slide{
+    width: 100%;
+    height: 100%;
+    float: right !important;
+}
+.header .buttons .css-g9cw6v .css-0{
+    width: auto;
+    height: 100%;
+}
+.header .buttons .css-g9cw6v .css-0>span,.header .buttons .css-g9cw6v>span{
+    display: block;
+    width: 20px !important;
+    margin: 0px 10px !important;
+    text-align: center;
+}
+.header .buttons .css-g9cw6v .css-0>span>svg,.header .buttons .css-g9cw6v>span>svg{
+    width: 22px;
+    height: 22px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    text-align: center;
 }
 
-/*内容调整*/
+/*鍐呭璋冩暣*/
 .chakra-breadcrumb__list{
     font-size: 13px !important;
 }
@@ -165,7 +190,7 @@ ul li{
     color: #555555 !important;
 }
 
-/*尾部版权*/
+/*灏鹃儴鐗堟潈*/
 .footer{
     padding-top: 30px;
     line-height: 14px;
@@ -190,7 +215,7 @@ ul li{
     color: #666666;
 }
 
-/*调整*/
+/*璋冩暣*/
 .css-1bhnkfm,.css-zf9m6f{
     display: inline-block;
     width: 50px;
@@ -244,7 +269,7 @@ ul li{
     box-shadow: 0 5px 5px 0 rgba(230, 230, 230, .86) !important;
 }
 
-/*昼夜切换*/
+/*鏄煎鍒囨崲*/
 .chakra-ui-dark{
     background-color: #282828 !important;
 }
@@ -276,6 +301,10 @@ ul li{
 }
 .chakra-ui-dark .header .buttons>span>svg{
     color: #FFF;
+}
+.chakra-ui-dark .header .buttons{
+    background-color: #2d3748 !important;
+    box-shadow: var(--chakra-shadows-lg) !important;
 }
 
 
